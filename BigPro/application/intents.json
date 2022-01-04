@@ -1,0 +1,87 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Apa kabar ?",
+        "Apakah ada orang disini ?",
+        "Siang",
+        "Pagi",
+        "Malam",
+        "Selamat siang",
+        "Selamat pagi",
+        "Selamat malam",
+        "Hai",
+        "Halo"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, terimakasih telah mengunjungi website ini",
+        "Hallo ada yang bisa saya bantu ?",
+        "Hi saya PicBot, adakah yang bisa saya bantu",
+        "Haii, PicBot disini"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","Sampai jumpa","Dadah"],
+      "responses": [
+        "Terimakasih telah mengunjungi website ini",
+        "Sampai jumpa lagi...",
+        "Sampai jumpa, semoga harimu menyenangkan..."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "Senang bisa membantu"]
+    },
+    {
+      "tag": "cara",
+      "patterns": [
+        "Bagaimana cara menggunakan website ini ?",
+        "Bagaimana cara mendeteksi ekspresi wajah secara realtime menggunakan website ini ?",
+        "Bagaimana cara mendeteksi ekspresi menggunakan foto yang saya miliki ?",
+        "Bagaimana cara mendeteksi ekspresi dengan gambar ?"
+      ],
+      "responses": [
+        "Untuk mendeteksi ekspresi dengan gambar anda bisa mengeklik get picture pada bagian home, lalu untuk mendeteksi ekspresi secara realtime anda bisa mengeklik get picture pada bagian vrealtime "
+      ]
+    },
+    {
+      "tag": "kegunaan",
+      "patterns": [
+        "Apa kegunaan dari website ini ?",
+        "Apa manfaat dari website ini ?"
+      ],
+      "responses": [
+        "Website ini dapat digunakan untuk mendeteksi ekspresi wajah yang kita miliki seperti sedih, senang, marah, dan juga netral "
+      ]
+    },
+    {
+      "tag": "pengguna",
+      "patterns": [
+        "Siapa yang menggunakan website ini ?",
+        "Apakah kita bisa mendeteksi ekspresi hewan ?",
+        "Apa yang akan terjadi jika tidak ada manusia pada vidio atau gambar yang diupload ?"
+      ],
+      "responses": [
+        "Website ini nantinya akan digunakan oleh mahasiswa dan pada website ini hanya dapat digunakan oleh manusia saja, jadi website ini tidak dapat mendeteksi ekspresi hewan"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
